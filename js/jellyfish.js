@@ -72,7 +72,7 @@ function draw_cut_lines(){
     gamma = 60*Math.PI/180;//must be greater than 45!
     t = (a-b)/(2*Math.cos(gamma)); //hypotenuse 
     h = 2*t*Math.sin(gamma) + a + b; //height/width of unit cell 
-    n = 1; //nxn array of points (of 4x4 small cells)
+    n = 100; //nxn array of points (of 4x4 small cells)
 
     inc = [a,t*Math.sin(gamma),b,t*Math.cos(gamma)];
 
